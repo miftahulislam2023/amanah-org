@@ -10,13 +10,13 @@ export default function Contact() {
     return (
         <div className="min-h-screen">
             {/* Hero Section */}
-            <section className="relative bg-gradient-to-br from-blue-600 to-blue-800 text-white py-20">
+            <section className="relative bg-gradient-to-br from-[#2d5d45] to-[#1e402e] text-white py-20">
                 <div className="container mx-auto px-4">
                     <div className="max-w-4xl mx-auto text-center">
                         <h1 className="text-4xl md:text-5xl font-bold mb-6">
                             যোগাযোগ করুন
                         </h1>
-                        <p className="text-xl md:text-2xl text-blue-100 leading-relaxed">
+                        <p className="text-xl md:text-2xl text-green-100 leading-relaxed">
                             আমাদের সাথে যোগাযোগ করুন এবং মানবতার সেবায় অংশগ্রহণ করুন
                         </p>
                     </div>
@@ -24,7 +24,7 @@ export default function Contact() {
             </section>
 
             {/* Contact Form and Info */}
-            <section className="py-16">
+            <section className="py-16 sm:px-2 md:px-8 lg:px-30">
                 <div className="container mx-auto px-4">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
                         {/* Contact Form */}
@@ -81,7 +81,7 @@ export default function Contact() {
                                             />
                                         </div>
 
-                                        <Button type="submit" className="w-full">
+                                        <Button type="submit" className="w-full bg-[#2d5d45] hover:bg-[#1e402e]">
                                             বার্তা পাঠান
                                         </Button>
                                     </form>
@@ -95,7 +95,7 @@ export default function Contact() {
                             <Card>
                                 <CardHeader>
                                     <CardTitle className="flex items-center gap-2">
-                                        <MapPin className="w-5 h-5 text-blue-600" />
+                                        <MapPin className="w-5 h-5 text-[#2d5d45]" />
                                         আমাদের অফিস
                                     </CardTitle>
                                 </CardHeader>
@@ -110,7 +110,7 @@ export default function Contact() {
                                     </div>
 
                                     <div className="flex items-center gap-3 pt-2">
-                                        <Phone className="w-5 h-5 text-blue-600" />
+                                        <Phone className="w-5 h-5 text-[#2d5d45]" />
                                         <div>
                                             <p className="font-medium">+৮৮ ০১৭১২-৩৪৫৬৭২</p>
                                             <p className="text-sm text-gray-600">অফিস লাইন</p>
@@ -118,7 +118,7 @@ export default function Contact() {
                                     </div>
 
                                     <div className="flex items-center gap-3">
-                                        <Mail className="w-5 h-5 text-blue-600" />
+                                        <Mail className="w-5 h-5 text-[#2d5d45]" />
                                         <div>
                                             <p className="font-medium">info@amanahfoundation.org</p>
                                             <p className="text-sm text-gray-600">মূল ইমেইল</p>
@@ -126,7 +126,7 @@ export default function Contact() {
                                     </div>
 
                                     <div className="flex items-center gap-3">
-                                        <Clock className="w-5 h-5 text-blue-600" />
+                                        <Clock className="w-5 h-5 text-[#2d5d45]" />
                                         <div>
                                             <p className="font-medium">রবি - বৃহস্পতি</p>
                                             <p className="text-sm text-gray-600">সকাল ৯টা - বিকাল ৫টা</p>
@@ -168,14 +168,14 @@ export default function Contact() {
                                     <div className="flex space-x-4">
                                         <a
                                             href="#"
-                                            className="flex items-center gap-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
+                                            className="flex items-center gap-2 px-4 py-2 bg-[#2d5d45] text-white rounded-lg hover:bg-[#1e402e] transition-colors"
                                         >
                                             <Facebook className="w-5 h-5" />
                                             Facebook
                                         </a>
                                         <a
                                             href="#"
-                                            className="flex items-center gap-2 px-4 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700 transition-colors"
+                                            className="flex items-center gap-2 px-4 py-2 bg-[#be0027] text-white rounded-lg hover:bg-red-700 transition-colors"
                                         >
                                             <Youtube className="w-5 h-5" />
                                             YouTube
@@ -219,7 +219,7 @@ export default function Contact() {
             <section className="py-16 bg-red-50">
                 <div className="container mx-auto px-4">
                     <div className="max-w-2xl mx-auto text-center">
-                        <h2 className="text-2xl md:text-3xl font-bold text-red-600 mb-4">
+                        <h2 className="text-2xl md:text-3xl font-bold text-[#be0027] mb-4">
                             জরুরি যোগাযোগ
                         </h2>
                         <p className="text-gray-700 mb-6">
@@ -228,7 +228,7 @@ export default function Contact() {
                         <div className="flex flex-col sm:flex-row gap-4 justify-center">
                             <a
                                 href="tel:+8801712345672"
-                                className="flex items-center justify-center gap-2 px-6 py-3 bg-red-600 text-white rounded-lg hover:bg-red-700 transition-colors"
+                                className="flex items-center justify-center gap-2 px-6 py-3 bg-[#be0027] text-white rounded-lg hover:bg-red-700 transition-colors"
                             >
                                 <Phone className="w-5 h-5" />
                                 জরুরি হটলাইন: ০১৭১২-৩৪৫৬৭২

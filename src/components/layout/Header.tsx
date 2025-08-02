@@ -9,34 +9,32 @@ export default function Header() {
                 <div className="flex items-center justify-between h-16">
                     {/* Logo */}
                     <Link href="/" className="flex items-center space-x-2">
-                        <div className="flex items-center justify-center w-10 h-10 bg-blue-600 rounded-lg">
+                        <div className="flex items-center justify-center w-10 h-10 bg-[#2d5d45] rounded-lg">
                             <Heart className="w-6 h-6 text-white" fill="currentColor" />
                         </div>
                         <span className="text-xl font-bold text-gray-900">আমানাহ ফাউন্ডেশন</span>
-                    </Link>
-
-                    {/* Desktop Navigation */}
+                    </Link>          {/* Desktop Navigation */}
                     <nav className="hidden md:flex items-center space-x-8">
-                        <Link href="/" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">
+                        <Link href="/" className="text-gray-700 hover:text-[#2d5d45] font-medium transition-colors">
                             হোম
                         </Link>
-                        <Link href="/about" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">
+                        <Link href="/about" className="text-gray-700 hover:text-[#2d5d45] font-medium transition-colors">
                             আমাদের সম্পর্কে
                         </Link>
-                        <Link href="/projects" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">
+                        <Link href="/projects" className="text-gray-700 hover:text-[#2d5d45] font-medium transition-colors">
                             প্রকল্পসমূহ
                         </Link>
-                        <Link href="/get-involved" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">
+                        <Link href="/get-involved" className="text-gray-700 hover:text-[#2d5d45] font-medium transition-colors">
                             যুক্ত হন
                         </Link>
-                        <Link href="/contact" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">
+                        <Link href="/contact" className="text-gray-700 hover:text-[#2d5d45] font-medium transition-colors">
                             যোগাযোগ
                         </Link>
                     </nav>
 
                     {/* CTA Button */}
                     <div className="hidden md:block">
-                        <Button asChild className="bg-blue-600 hover:bg-blue-700">
+                        <Button size='lg' asChild className="bg-[#ff0033] text-white rounded-lg hover:bg-[#ffa50a] hover:text-white transition-colors">
                             <Link href="/donate">দান করুন</Link>
                         </Button>
                     </div>

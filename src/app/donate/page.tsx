@@ -7,7 +7,7 @@ export default function Donate() {
     return (
         <div className="min-h-screen">
             {/* Hero Section */}
-            <section className="relative bg-gradient-to-br from-green-600 to-green-800 text-white py-20">
+            <section className="relative bg-gradient-to-br from-[#2d5d45] to-[#1e402e] text-white py-20">
                 <div className="container mx-auto px-4">
                     <div className="max-w-4xl mx-auto text-center">
                         <h1 className="text-4xl md:text-5xl font-bold mb-6">
@@ -16,7 +16,7 @@ export default function Donate() {
                         <p className="text-xl md:text-2xl text-green-100 leading-relaxed mb-8">
                             আপনার ছোট অবদানও অনেক পরিবারের জীবনে বড় পরিবর্তন আনতে পারে
                         </p>
-                        <Button size="lg" className="bg-white text-green-600 hover:bg-gray-100">
+                        <Button size="lg" className="bg-[#e2ae57] text-white hover:bg-[#d19940]">
                             এখনই দান করুন
                             <Heart className="w-5 h-5 ml-2" />
                         </Button>
@@ -36,10 +36,10 @@ export default function Donate() {
                         </p>
                     </div>
 
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-                        <Card className="text-center border-2 hover:border-green-200 transition-colors">
+                    <div className="sm:px-2 md:px-8 lg:px-30 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                        <Card className="text-center border-2 hover:border-[#e2ae57] transition-colors">
                             <CardHeader>
-                                <div className="text-3xl font-bold text-green-600">৫০০ ৳</div>
+                                <div className="text-3xl font-bold text-[#2d5d45]">৫০০ ৳</div>
                                 <CardTitle>একটি শিশুর</CardTitle>
                             </CardHeader>
                             <CardContent>
@@ -49,9 +49,9 @@ export default function Donate() {
                             </CardContent>
                         </Card>
 
-                        <Card className="text-center border-2 hover:border-green-200 transition-colors">
+                        <Card className="text-center border-2 hover:border-[#e2ae57] transition-colors">
                             <CardHeader>
-                                <div className="text-3xl font-bold text-green-600">১০০০ ৳</div>
+                                <div className="text-3xl font-bold text-[#e2ae57]">১০০০ ৳</div>
                                 <CardTitle>একটি পরিবারের</CardTitle>
                             </CardHeader>
                             <CardContent>
@@ -61,9 +61,9 @@ export default function Donate() {
                             </CardContent>
                         </Card>
 
-                        <Card className="text-center border-2 hover:border-green-200 transition-colors">
+                        <Card className="text-center border-2 hover:border-[#e2ae57] transition-colors">
                             <CardHeader>
-                                <div className="text-3xl font-bold text-green-600">২০০০ ৳</div>
+                                <div className="text-3xl font-bold text-[#be0027]">২০০০ ৳</div>
                                 <CardTitle>একজন রোগীর</CardTitle>
                             </CardHeader>
                             <CardContent>
@@ -73,9 +73,9 @@ export default function Donate() {
                             </CardContent>
                         </Card>
 
-                        <Card className="text-center border-2 hover:border-green-200 transition-colors">
+                        <Card className="text-center border-2 hover:border-[#e2ae57] transition-colors">
                             <CardHeader>
-                                <div className="text-3xl font-bold text-green-600">৫০০০ ৳</div>
+                                <div className="text-3xl font-bold text-[#2d5d45]">৫০০০ ৳</div>
                                 <CardTitle>একটি নলকূপ</CardTitle>
                             </CardHeader>
                             <CardContent>
@@ -100,11 +100,11 @@ export default function Donate() {
                         </p>
                     </div>
 
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div className="sm:px-2 md:px-8 lg:px-30 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                         <Card className="hover:shadow-lg transition-shadow">
                             <CardHeader>
-                                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                                    <Target className="w-8 h-8 text-blue-600" />
+                                <div className="w-16 h-16 bg-[#2d5d45]/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                                    <Target className="w-8 h-8 text-[#2d5d45]" />
                                 </div>
                                 <CardTitle className="text-center">শিক্ষা সহায়তা</CardTitle>
                             </CardHeader>
@@ -112,7 +112,7 @@ export default function Donate() {
                                 <p className="text-gray-600 mb-4 text-center">
                                     দরিদ্র শিশুদের শিক্ষার জন্য বই, খাতা, বৃত্তি প্রদান
                                 </p>
-                                <Button className="w-full" variant="outline">
+                                <Button className="w-full border-[#2d5d45] text-[#2d5d45] hover:bg-[#2d5d45] hover:text-white" variant="outline">
                                     শিক্ষায় দান করুন
                                 </Button>
                             </CardContent>
@@ -120,8 +120,8 @@ export default function Donate() {
 
                         <Card className="hover:shadow-lg transition-shadow">
                             <CardHeader>
-                                <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                                    <Heart className="w-8 h-8 text-green-600" />
+                                <div className="w-16 h-16 bg-[#e2ae57]/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                                    <Heart className="w-8 h-8 text-[#e2ae57]" />
                                 </div>
                                 <CardTitle className="text-center">স্বাস্থ্য সেবা</CardTitle>
                             </CardHeader>
@@ -129,7 +129,7 @@ export default function Donate() {
                                 <p className="text-gray-600 mb-4 text-center">
                                     বিনামূল্যে চিকিৎসা, ওষুধ ও স্বাস্থ্য ক্যাম্প পরিচালনা
                                 </p>
-                                <Button className="w-full" variant="outline">
+                                <Button className="w-full border-[#e2ae57] text-[#e2ae57] hover:bg-[#e2ae57] hover:text-white" variant="outline">
                                     স্বাস্থ্যে দান করুন
                                 </Button>
                             </CardContent>
@@ -137,8 +137,8 @@ export default function Donate() {
 
                         <Card className="hover:shadow-lg transition-shadow">
                             <CardHeader>
-                                <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                                    <Users className="w-8 h-8 text-purple-600" />
+                                <div className="w-16 h-16 bg-[#be0027]/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                                    <Users className="w-8 h-8 text-[#be0027]" />
                                 </div>
                                 <CardTitle className="text-center">খাদ্য সহায়তা</CardTitle>
                             </CardHeader>
@@ -146,7 +146,7 @@ export default function Donate() {
                                 <p className="text-gray-600 mb-4 text-center">
                                     অভাবী পরিবারগুলোর জন্য খাদ্য সামগ্রী বিতরণ
                                 </p>
-                                <Button className="w-full" variant="outline">
+                                <Button className="w-full border-[#be0027] text-[#be0027] hover:bg-[#be0027] hover:text-white" variant="outline">
                                     খাদ্যে দান করুন
                                 </Button>
                             </CardContent>
@@ -171,8 +171,8 @@ export default function Donate() {
 
                         <Card className="hover:shadow-lg transition-shadow">
                             <CardHeader>
-                                <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                                    <Building className="w-8 h-8 text-green-600" />
+                                <div className="w-16 h-16 bg-[#2d5d45]/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                                    <Building className="w-8 h-8 text-[#2d5d45]" />
                                 </div>
                                 <CardTitle className="text-center">অবকাঠামো উন্নয়ন</CardTitle>
                             </CardHeader>
@@ -180,7 +180,7 @@ export default function Donate() {
                                 <p className="text-gray-600 mb-4 text-center">
                                     স্কুল, ক্লিনিক, নলকূপ স্থাপন ও সংস্কার
                                 </p>
-                                <Button className="w-full" variant="outline">
+                                <Button className="w-full border-[#2d5d45] text-[#2d5d45] hover:bg-[#2d5d45] hover:text-white" variant="outline">
                                     উন্নয়নে দান করুন
                                 </Button>
                             </CardContent>
@@ -188,8 +188,8 @@ export default function Donate() {
 
                         <Card className="hover:shadow-lg transition-shadow">
                             <CardHeader>
-                                <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                                    <DollarSign className="w-8 h-8 text-orange-600" />
+                                <div className="w-16 h-16 bg-[#e2ae57]/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                                    <DollarSign className="w-8 h-8 text-[#e2ae57]" />
                                 </div>
                                 <CardTitle className="text-center">সাধারণ তহবিল</CardTitle>
                             </CardHeader>
@@ -197,7 +197,7 @@ export default function Donate() {
                                 <p className="text-gray-600 mb-4 text-center">
                                     সব ধরনের কার্যক্রমে ব্যবহারের জন্য সাধারণ দান
                                 </p>
-                                <Button className="w-full" variant="outline">
+                                <Button className="w-full border-[#e2ae57] text-[#e2ae57] hover:bg-[#e2ae57] hover:text-white" variant="outline">
                                     সাধারণ দান করুন
                                 </Button>
                             </CardContent>
@@ -218,11 +218,11 @@ export default function Donate() {
                         </p>
                     </div>
 
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-4xl mx-auto">
+                    <div className="sm:px-2 md:px-8 lg:px-30 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mx-auto">
                         <Card className="text-center">
                             <CardHeader>
-                                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                                    <Smartphone className="w-8 h-8 text-blue-600" />
+                                <div className="w-16 h-16 bg-[#2d5d45]/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                                    <Smartphone className="w-8 h-8 text-[#2d5d45]" />
                                 </div>
                                 <CardTitle>মোবাইল ব্যাংকিং</CardTitle>
                             </CardHeader>
@@ -244,8 +244,8 @@ export default function Donate() {
 
                         <Card className="text-center">
                             <CardHeader>
-                                <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                                    <Building className="w-8 h-8 text-green-600" />
+                                <div className="w-16 h-16 bg-[#e2ae57]/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                                    <Building className="w-8 h-8 text-[#e2ae57]" />
                                 </div>
                                 <CardTitle>ব্যাংক ট্রান্সফার</CardTitle>
                             </CardHeader>
@@ -267,8 +267,8 @@ export default function Donate() {
 
                         <Card className="text-center">
                             <CardHeader>
-                                <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                                    <CreditCard className="w-8 h-8 text-purple-600" />
+                                <div className="w-16 h-16 bg-[#be0027]/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                                    <CreditCard className="w-8 h-8 text-[#be0027]" />
                                 </div>
                                 <CardTitle>অনলাইন পেমেন্ট</CardTitle>
                             </CardHeader>
@@ -276,7 +276,7 @@ export default function Donate() {
                                 <p className="text-sm text-gray-600">
                                     ক্রেডিট কার্ড, ডেবিট কার্ড দিয়ে নিরাপদ অনলাইন পেমেন্ট
                                 </p>
-                                <Button className="w-full">
+                                <Button className="w-full bg-[#be0027] hover:bg-red-700">
                                     অনলাইনে দান করুন
                                 </Button>
                             </CardContent>
@@ -286,7 +286,7 @@ export default function Donate() {
             </section>
 
             {/* Why Donate */}
-            <section className="py-16 bg-blue-50">
+            <section className="py-16 bg-green-50">
                 <div className="container mx-auto px-4">
                     <div className="text-center mb-12">
                         <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
@@ -294,7 +294,7 @@ export default function Donate() {
                         </h2>
                     </div>
 
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div className="sm:px-2 md:px-8 lg:px-30 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                         <div className="bg-white p-6 rounded-lg shadow-sm text-center">
                             <Shield className="w-12 h-12 text-blue-600 mx-auto mb-4" />
                             <h3 className="font-semibold text-gray-900 mb-3">১০০% স্বচ্ছতা</h3>
@@ -312,7 +312,7 @@ export default function Donate() {
                         </div>
 
                         <div className="bg-white p-6 rounded-lg shadow-sm text-center">
-                            <Users className="w-12 h-12 text-purple-600 mx-auto mb-4" />
+                            <Users className="w-12 h-12 text-[#be0027] mx-auto mb-4" />
                             <h3 className="font-semibold text-gray-900 mb-3">সরাসরি প্রভাব</h3>
                             <p className="text-gray-600 text-sm">
                                 আপনার দান সরাসরি উপকারভোগীদের কাছে পৌঁছায়
@@ -320,7 +320,7 @@ export default function Donate() {
                         </div>
 
                         <div className="bg-white p-6 rounded-lg shadow-sm text-center">
-                            <Heart className="w-12 h-12 text-red-600 mx-auto mb-4" />
+                            <Heart className="w-12 h-12 text-[#e2ae57] mx-auto mb-4" />
                             <h3 className="font-semibold text-gray-900 mb-3">নিয়মিত আপডেট</h3>
                             <p className="text-gray-600 text-sm">
                                 প্রকল্পের অগ্রগতি সম্পর্কে নিয়মিত রিপোর্ট পাবেন
@@ -328,7 +328,7 @@ export default function Donate() {
                         </div>
 
                         <div className="bg-white p-6 rounded-lg shadow-sm text-center">
-                            <Building className="w-12 h-12 text-blue-600 mx-auto mb-4" />
+                            <Building className="w-12 h-12 text-[#2d5d45] mx-auto mb-4" />
                             <h3 className="font-semibold text-gray-900 mb-3">সরকারি নিবন্ধন</h3>
                             <p className="text-gray-600 text-sm">
                                 আইনত নিবন্ধিত ও স্বীকৃত দাতব্য সংস্থা
@@ -336,7 +336,7 @@ export default function Donate() {
                         </div>
 
                         <div className="bg-white p-6 rounded-lg shadow-sm text-center">
-                            <DollarSign className="w-12 h-12 text-green-600 mx-auto mb-4" />
+                            <DollarSign className="w-12 h-12 text-[#e2ae57] mx-auto mb-4" />
                             <h3 className="font-semibold text-gray-900 mb-3">কম প্রশাসনিক খরচ</h3>
                             <p className="text-gray-600 text-sm">
                                 মাত্র ৫% প্রশাসনিক খরচ, ৯৫% সরাসরি সেবায়
@@ -347,7 +347,7 @@ export default function Donate() {
             </section>
 
             {/* Call to Action */}
-            <section className="py-16 bg-green-600 text-white">
+            <section className="py-16 bg-gradient-to-br from-[#2d5d45] to-[#1e402e] text-white">
                 <div className="container mx-auto px-4 text-center">
                     <h2 className="text-3xl md:text-4xl font-bold mb-6">
                         আজই দান করুন
@@ -357,11 +357,11 @@ export default function Donate() {
                         মানবতার সেবায় এগিয়ে আসুন।
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                        <Button size="lg" className="bg-white text-green-600 hover:bg-gray-100">
+                        <Button size="lg" className="bg-[#e2ae57] text-white hover:bg-[#d19940]">
                             অনলাইনে দান করুন
                             <Heart className="w-5 h-5 ml-2" />
                         </Button>
-                        <Button size="lg" variant="outline" asChild className="border-white text-white hover:bg-white hover:text-green-600">
+                        <Button size="lg" variant="outline" asChild className="border-[#e2ae57] text-[#e2ae57] hover:bg-[#e2ae57] hover:text-white">
                             <Link href="/contact">
                                 যোগাযোগ করুন
                             </Link>

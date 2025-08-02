@@ -7,16 +7,16 @@ export default function GetInvolved() {
     return (
         <div className="min-h-screen">
             {/* Hero Section */}
-            <section className="relative bg-gradient-to-br from-blue-600 to-blue-800 text-white py-20">
+            <section className="relative bg-gradient-to-br from-[#2d5d45] to-[#1e402e] text-white py-20">
                 <div className="container mx-auto px-4">
                     <div className="max-w-4xl mx-auto text-center">
                         <h1 className="text-4xl md:text-5xl font-bold mb-6">
                             আমাদের সাথে যুক্ত হন
                         </h1>
-                        <p className="text-xl md:text-2xl text-blue-100 leading-relaxed mb-8">
+                        <p className="text-xl md:text-2xl text-green-100 leading-relaxed mb-8">
                             মানবতার সেবায় এগিয়ে আসুন এবং সমাজে ইতিবাচক পরিবর্তন আনতে সহায়তা করুন
                         </p>
-                        <Button size="lg" asChild className="bg-white text-blue-600 hover:bg-gray-100">
+                        <Button size="lg" asChild className="bg-[#e2ae57] text-white hover:bg-[#d19940]">
                             <Link href="/contact">
                                 যোগাযোগ করুন
                                 <Heart className="w-5 h-5 ml-2" />
@@ -38,12 +38,12 @@ export default function GetInvolved() {
                         </p>
                     </div>
 
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div className="sm:px-2 md:px-8 lg:px-30 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                         {/* Volunteer */}
-                        <Card className="text-center border-2 hover:border-blue-200 transition-colors">
+                        <Card className="text-center border-2 hover:border-[#e2ae57] transition-colors">
                             <CardHeader>
-                                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                                    <Users className="w-8 h-8 text-blue-600" />
+                                <div className="w-16 h-16 bg-[#2d5d45]/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                                    <Users className="w-8 h-8 text-[#2d5d45]" />
                                 </div>
                                 <CardTitle className="text-xl">স্বেচ্ছাসেবক হন</CardTitle>
                             </CardHeader>
@@ -51,17 +51,17 @@ export default function GetInvolved() {
                                 <p className="text-gray-600 mb-4">
                                     আমাদের বিভিন্ন প্রকল্পে স্বেচ্ছাসেবক হিসেবে কাজ করুন এবং সরাসরি সমাজ সেবায় অংশগ্রহণ করুন।
                                 </p>
-                                <Button asChild variant="outline" className="w-full">
+                                <Button asChild variant="outline" className="w-full border-[#2d5d45] text-[#2d5d45] hover:bg-[#2d5d45] hover:text-white">
                                     <Link href="/contact">আবেদন করুন</Link>
                                 </Button>
                             </CardContent>
                         </Card>
 
                         {/* Donate */}
-                        <Card className="text-center border-2 hover:border-blue-200 transition-colors">
+                        <Card className="text-center border-2 hover:border-[#e2ae57] transition-colors">
                             <CardHeader>
-                                <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                                    <Heart className="w-8 h-8 text-green-600" />
+                                <div className="w-16 h-16 bg-[#e2ae57]/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                                    <Heart className="w-8 h-8 text-[#e2ae57]" />
                                 </div>
                                 <CardTitle className="text-xl">দান করুন</CardTitle>
                             </CardHeader>
@@ -69,17 +69,17 @@ export default function GetInvolved() {
                                 <p className="text-gray-600 mb-4">
                                     আর্থিক অনুদানের মাধ্যমে আমাদের প্রকল্পগুলোকে সহায়তা করুন এবং অসহায় মানুষের পাশে দাঁড়ান।
                                 </p>
-                                <Button asChild className="w-full">
+                                <Button asChild className="w-full bg-[#e2ae57] hover:bg-[#d19940]">
                                     <Link href="/donate">দান করুন</Link>
                                 </Button>
                             </CardContent>
                         </Card>
 
                         {/* Partnership */}
-                        <Card className="text-center border-2 hover:border-blue-200 transition-colors">
+                        <Card className="text-center border-2 hover:border-[#e2ae57] transition-colors">
                             <CardHeader>
-                                <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                                    <Building className="w-8 h-8 text-purple-600" />
+                                <div className="w-16 h-16 bg-[#be0027]/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                                    <Building className="w-8 h-8 text-[#be0027]" />
                                 </div>
                                 <CardTitle className="text-xl">অংশীদারিত্ব</CardTitle>
                             </CardHeader>
@@ -87,7 +87,7 @@ export default function GetInvolved() {
                                 <p className="text-gray-600 mb-4">
                                     প্রতিষ্ঠান বা ব্যবসায়িক অংশীদার হিসেবে আমাদের সাথে দীর্ঘমেয়াদী সহযোগিতা করুন।
                                 </p>
-                                <Button asChild variant="outline" className="w-full">
+                                <Button asChild variant="outline" className="w-full border-[#be0027] text-[#be0027] hover:bg-[#be0027] hover:text-white">
                                     <Link href="/contact">আলোচনা করুন</Link>
                                 </Button>
                             </CardContent>
@@ -108,11 +108,11 @@ export default function GetInvolved() {
                         </p>
                     </div>
 
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <div className="sm:px-2 md:px-8 lg:px-30 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                         <Card>
                             <CardHeader className="text-center">
-                                <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-3">
-                                    <GraduationCap className="w-6 h-6 text-blue-600" />
+                                <div className="w-12 h-12 bg-[#2d5d45]/10 rounded-full flex items-center justify-center mx-auto mb-3">
+                                    <GraduationCap className="w-6 h-6 text-[#2d5d45]" />
                                 </div>
                                 <CardTitle className="text-lg">শিক্ষা কার্যক্রম</CardTitle>
                             </CardHeader>
@@ -128,8 +128,8 @@ export default function GetInvolved() {
 
                         <Card>
                             <CardHeader className="text-center">
-                                <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-3">
-                                    <HandHeart className="w-6 h-6 text-green-600" />
+                                <div className="w-12 h-12 bg-[#e2ae57]/10 rounded-full flex items-center justify-center mx-auto mb-3">
+                                    <HandHeart className="w-6 h-6 text-[#e2ae57]" />
                                 </div>
                                 <CardTitle className="text-lg">স্বাস্থ্য সেবা</CardTitle>
                             </CardHeader>
@@ -145,8 +145,8 @@ export default function GetInvolved() {
 
                         <Card>
                             <CardHeader className="text-center">
-                                <div className="w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-3">
-                                    <Briefcase className="w-6 h-6 text-orange-600" />
+                                <div className="w-12 h-12 bg-[#be0027]/10 rounded-full flex items-center justify-center mx-auto mb-3">
+                                    <Briefcase className="w-6 h-6 text-[#be0027]" />
                                 </div>
                                 <CardTitle className="text-lg">প্রশাসনিক কাজ</CardTitle>
                             </CardHeader>
@@ -162,8 +162,8 @@ export default function GetInvolved() {
 
                         <Card>
                             <CardHeader className="text-center">
-                                <div className="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-3">
-                                    <Users className="w-6 h-6 text-purple-600" />
+                                <div className="w-12 h-12 bg-[#e2ae57]/10 rounded-full flex items-center justify-center mx-auto mb-3">
+                                    <Users className="w-6 h-6 text-[#e2ae57]" />
                                 </div>
                                 <CardTitle className="text-lg">সামাজিক কার্যক্রম</CardTitle>
                             </CardHeader>
@@ -194,7 +194,7 @@ export default function GetInvolved() {
                             <Card>
                                 <CardHeader>
                                     <CardTitle className="flex items-center gap-2">
-                                        <Clock className="w-5 h-5 text-blue-600" />
+                                        <Clock className="w-5 h-5 text-[#2d5d45]" />
                                         সময়ের প্রতিশ্রুতি
                                     </CardTitle>
                                 </CardHeader>
@@ -211,7 +211,7 @@ export default function GetInvolved() {
                             <Card>
                                 <CardHeader>
                                     <CardTitle className="flex items-center gap-2">
-                                        <MapPin className="w-5 h-5 text-green-600" />
+                                        <MapPin className="w-5 h-5 text-[#e2ae57]" />
                                         কাজের এলাকা
                                     </CardTitle>
                                 </CardHeader>
@@ -252,7 +252,7 @@ export default function GetInvolved() {
             </section>
 
             {/* Benefits */}
-            <section className="py-16 bg-blue-50">
+            <section className="py-16 bg-green-50">
                 <div className="container mx-auto px-4">
                     <div className="text-center mb-12">
                         <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
@@ -263,7 +263,7 @@ export default function GetInvolved() {
                         </p>
                     </div>
 
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div className="sm:px-2 md:px-8 lg:px-30 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                         <div className="bg-white p-6 rounded-lg shadow-sm">
                             <h3 className="font-semibold text-gray-900 mb-3">দক্ষতা উন্নয়ন</h3>
                             <p className="text-gray-600 text-sm">
@@ -310,22 +310,22 @@ export default function GetInvolved() {
             </section>
 
             {/* Call to Action */}
-            <section className="py-16 bg-blue-600 text-white">
+            <section className="py-16 bg-gradient-to-br from-[#2d5d45] to-[#1e402e] text-white">
                 <div className="container mx-auto px-4 text-center">
                     <h2 className="text-3xl md:text-4xl font-bold mb-6">
                         আজই যুক্ত হয়ে যান
                     </h2>
-                    <p className="text-xl mb-8 text-blue-100 max-w-2xl mx-auto">
+                    <p className="text-xl mb-8 text-green-100 max-w-2xl mx-auto">
                         মানবতার সেবায় আমাদের সাথে যুক্ত হন এবং সমাজে ইতিবাচক পরিবর্তন আনুন
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                        <Button size="lg" asChild className="bg-white text-blue-600 hover:bg-gray-100">
+                        <Button size="lg" asChild className="bg-[#e2ae57] text-white hover:bg-[#d19940]">
                             <Link href="/contact">
                                 স্বেচ্ছাসেবক হন
                                 <Users className="w-5 h-5 ml-2" />
                             </Link>
                         </Button>
-                        <Button size="lg" variant="outline" asChild className="border-white text-white hover:bg-white hover:text-blue-600">
+                        <Button size="lg" variant="outline" asChild className="border-[#e2ae57] text-[#e2ae57] hover:bg-[#e2ae57] hover:text-white">
                             <Link href="/donate">
                                 দান করুন
                                 <Heart className="w-5 h-5 ml-2" />
